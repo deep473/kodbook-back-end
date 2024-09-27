@@ -107,8 +107,7 @@ public class Post {
 
 	@Override
 	public String toString() {
-		return "Post [id=" + id + ", caption=" + caption + ", likes=" + likes + ", comments=" + comments + ", user="
-				+ user + ", photo=" + Arrays.toString(photo) + "]";
+		return "Post [id=" + id + ", caption=" + caption + ", likes=" + likes + ", comments=" + comments + ",  photo=" + Arrays.toString(photo) + "]";
 	}
 
 	
